@@ -64,7 +64,7 @@ public class AddingItemToCart {
 	@Before
 	public void setUp() throws IOException {
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\diana\\Downloads\\chromedriver_win32\\chromedriver.exe");
+				"C:\\Users\\rivka\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		driver = new ChromeDriver();
 		js = (JavascriptExecutor) driver;
 		vars = new HashMap<String, Object>();
